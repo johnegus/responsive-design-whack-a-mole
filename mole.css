@@ -2,27 +2,34 @@
 
 .wgs{
     display: inline-block;
-    height: 482px;
-    width: 640px;
+    height: 241px;
+    width: 320px;
     position: relative;
     overflow: hidden;
+    
 }
 
 .wgs__mole-head{
-    height: 356px;
-    width: 376px;
+    height: 178px;
+    width: 188px;
     position: absolute;
-    padding-left: 109px;
+    padding-left: 54.5px;
 }
 
 .wgs__dirt-pile{
-    height: 220px;
-    width: 640px;
+    height: 110px;
+    width: 320px;
     position: absolute;
     bottom: 0;
 }
 
 .wgs__mole-head--hidden{
-    margin-top: 482px;
+    margin-top: 241px;
     transition: 250ms;
+}
+
+.pf {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
