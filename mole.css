@@ -5,6 +5,7 @@
     height: 482px;
     width: 640px;
     position: relative;
+    overflow: hidden;
 }
 
 .wgs__mole-head{
@@ -23,4 +24,5 @@
 
 .wgs__mole-head--hidden{
     margin-top: 482px;
+    transition: 250ms;
 }
