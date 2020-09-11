@@ -1,1 +1,26 @@
 /* Write your CSS here. */
+
+.wgs{
+    display: inline-block;
+    height: 482px;
+    width: 640px;
+    position: relative;
+}
+
+.wgs__mole-head{
+    height: 356px;
+    width: 376px;
+    position: absolute;
+    padding-left: 109px;
+}
+
+.wgs__dirt-pile{
+    height: 220px;
+    width: 640px;
+    position: absolute;
+    bottom: 0;
+}
+
+.wgs__mole-head--hidden{
+    margin-top: 482px;
+}
